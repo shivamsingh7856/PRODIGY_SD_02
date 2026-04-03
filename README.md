@@ -1,14 +1,26 @@
+# Number Guessing Game - Java
+
 ## Description
-The Number Guessing Game is a Java-based console application in which the
-program generates a random number between 1 and 100, and the user is asked to
-guess the number. After each guess, the program provides feedback indicating
-whether the guessed number is too high or too low. The game continues until the
-user correctly guesses the number. Once the correct number is guessed, the 
-program displays the total number of attempts taken by the user.
+This project is a Java-based Number Guessing Game in which the program generates a random number between 1 and 100 and the user has to guess the number. The program provides hints if the guessed number is too high or too low. The game continues until the user guesses the correct number and then displays the number of attempts taken.
+
+This project demonstrates the use of loops, conditional statements, user input, and random number generation in Java.
 
 ## Features
-- Generates a random number between 1 and 100
-- User inputs guesses
-- Provides feedback (Too High / Too Low)
-- Counts number of attempts
-- Continues until correct guess
+- Random number generation
+- User input
+- Hints (Too High / Too Low)
+- Attempt counter
+- Loop until correct guess
+
+## Technologies Used
+- Java
+- Random Class
+- Scanner Class
+- Loops
+- Conditional Statements
+
+## How to Run
+1. Compile the program:
+   javac NumberGuessingGame.java
+2. Run the program:
+   java NumberGuessingGame
